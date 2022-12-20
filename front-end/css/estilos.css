@@ -1,0 +1,18 @@
+.wrapper {
+    min-height: 100vh;
+}
+
+#telaLogin{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+}
+#fundo{
+    background-image: url("../img/classroom.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

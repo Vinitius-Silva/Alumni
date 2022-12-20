@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Alumni :: Principal</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="d-flex flex-column wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light border-bottom shadow-sm" style="background-color: #b9bdc0;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/school-building.svg" alt="" width="30" height="24">
+                        Alumni
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav1">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/historia.html">História</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/missao-e-valores.html">Missão e Valores</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex-fill" id="fundo">
+           
+                <div class="card" id="telaLogin">
+                    <div class="card-body">
+                        <form action="">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">
+                                    <i class="bi bi-person-circle"></i>
+                                </span>
+                                <input type="text" class="form-control" id="username" placeholder="Usuário" aria-label="Usuario" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon2">
+                                    <i class="bi bi-key-fill"></i>
+                                </span>
+                                <input type="password" class="form-control" id="password" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon2">
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button type="submit" id="btnLogin" class="btn btn-success btn-lg">Entrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </main>
+
+        <footer class="border-top text-muted bg-light" >
+            <div class="container" >
+                <div class="row py-2 justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <div class="fw-bold">Desenvolvido por</div> 
+                        <div class="fst-italic">Vinitius Silva</div>  
+                        <div>Análise e Desenvolvimento de Sistemas</div>    
+                        <div><a href="https://www.uninassau.edu.br/" class='text-decoration-none text-black-50' target="_blank" rel="noopener noreferrer">Universidade Maurício de Nassau - UNINASSAU</a></div> 
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="text-muted fw-bold">Contato</div>
+                        <div><a href="tel:+558112356789"  class='text-decoration-none text-black-50'>Telefone: +55 (81) 1234-5678</a></div>
+                        <div><a href="https://wa.me/558112356789?text=Tenho%20dúvida%20sobre%20o%20acesso%20ao%20sistema."  class='text-decoration-none text-black-50' target="_blank" rel="noopener noreferrer">WhatsApp: +55 (81) 1234-5678</a></div>
+                    </div>
+                </div>
+                <div class="row py-2 justify-content-center">
+                    &copy; 2022 - Todos os direitos reservados.
+                </div>
+            </div>
+        </footer> 
+    </div>   
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>        
+</body>
+</html>
